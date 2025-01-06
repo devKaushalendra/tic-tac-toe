@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "tic-tac-toe",
+    "name": "Tic Tac Toe",
     "slug": "tic-tac-toe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.developerkk.tictactoe"
     },
     "web": {
       "bundler": "metro",

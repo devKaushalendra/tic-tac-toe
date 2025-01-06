@@ -102,6 +102,7 @@ const TicTacToe = () => {
       </View>
       <Button style={styles.button} title="Restart Game" onPress={restartGame} color="#841584" />
       <Text style={styles.score}>Score: X - {score.X} | O - {score.O} | Draws - {score.draws}</Text>
+      <View style={styles.copyrightView}><Text style={styles.copyright}>Created by: Kaushalendra</Text></View>
     </View>
   );
 };
@@ -149,6 +150,17 @@ const styles = StyleSheet.create({
   },
   button: {
       marginTop: 20,
+  },
+  copyrightView: {
+    position: 'absolute',
+    bottom: 10,
+    left: 0,
+    right: 0,
+    alignItems: 'center',
+  },
+  copyright: {
+    fontSize: 14,
+    color: '#555',
   },
 });
 
